@@ -1,0 +1,23 @@
+.student__img {
+  height: 120px;
+  width: 120px;
+}
+.StudentCard {
+  h5 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  &__info {
+    padding-top: 30px;
+    padding-left: 20px;
+    p {
+      font-size: 1.25em;
+    }
+    span {
+      color: #707070;
+      margin-left: 5px;
+
+      font-weight: 600;
+    }
+  }
+}

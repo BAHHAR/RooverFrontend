@@ -1,0 +1,103 @@
+.btn__primary {
+    width: 100px;
+    height: 40px;
+
+    background-color: $Pcolor;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0;
+    box-shadow: 0 10px 10px rgba($color: $Pcolor, $alpha: 0.1);
+    outline: 0 !important;
+}
+
+.btn__primary__form{
+    width: 200px;
+    height: 40px;
+
+    background-color: $Pcolor;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0;
+    box-shadow: 0 10px 10px rgba($color: $Pcolor, $alpha: 0.1);
+    outline: 0 !important;
+}
+
+.btn__secondary {
+    width: 100px;
+    height: 40px;
+
+    background-color: rgba($color: $Pcolor, $alpha: 0.05);
+    color: $Pcolor;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0;
+    box-shadow: 0 10px 10px rgba($color: $Pcolor, $alpha: 0.05);
+    outline: 0 !important;
+}
+.btn__icon {
+    width: 60px;
+    height: 40px;
+    background-color: rgba($color: $Pcolor, $alpha: 0.05);
+    color: $Pcolor;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0;
+    box-shadow: 0 10px 10px rgba($color: $Pcolor, $alpha: 0.05);
+    outline: 0 !important;
+    svg {
+        font-size: 22px !important;
+    }
+}
+.btn__danger {
+    width: 100px;
+    height: 40px;
+    background-color: $red;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0;
+    box-shadow: 0 10px 10px rgba($color: $Pcolor, $alpha: 0.05);
+    outline: 0 !important;
+}
+.btn__link {
+    color: rgb(28, 191, 255);
+    text-decoration: underline;
+    border: 0;
+    outline: 0 !important;
+    background-color: transparent;
+}
+
+.statistic__card {
+    background: $Pcolor;
+    color: white !important;
+    border-radius: 4px;
+    display: block;
+    width: 25% !important;
+    padding: 25px 20px;
+    &__title {
+        color: white;
+        font-weight: 500;
+    }
+    h3,
+    h5 {
+        color: white;
+        font-weight: 500;
+    }
+}
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.statistic__card__title{
+    font-size: 12px;
+}

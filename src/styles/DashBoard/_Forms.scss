@@ -1,0 +1,58 @@
+.input__text {
+  width: 300px !important;
+  height: 43px !important;
+  margin: 7px 0;
+}
+.Form {
+  width: 350px;
+}
+.from__center {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn__form {
+  width: 300px;
+  height: 43px;
+  background-color: $Pcolor;
+  color: white;
+
+  border: 0;
+  box-shadow: 0 10px 10px rgba($color: $Pcolor, $alpha: 0.1);
+  outline: 0 !important;
+}
+.checkBox {
+  margin-top: 10px !important;
+  margin-bottom: 17px !important;
+  color: #707070 !important;
+  font-size: 13px !important;
+}
+
+.input__form {
+  height: 40px !important;
+  flex: 1;
+  width: 100%;
+  font-size: 14px !important;
+}
+
+.personneForm {
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    height: 40px;
+    align-items: center;
+  }
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  height: 40px !important;
+  align-items: center;
+}
+.w-300 {
+  width: 300px !important;
+}
+.w-250 {
+  width: 250px !important;
+}
+.h-40 {
+  height: 40px !important;
+}

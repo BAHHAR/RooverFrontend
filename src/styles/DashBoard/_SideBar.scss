@@ -1,0 +1,131 @@
+.SideBar {
+  width: $sideBarSize;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  height: 100vh;
+  .sidebar__logo {
+    height: $headerSize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .sidebar__top {
+    height: 190px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: space-evenly;
+    border-top: 1px solid #e8e8ee;
+    border-bottom: 1px solid #e8e8ee;
+    border-radius: 9px;
+    text-align: center;
+    img {
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+    }
+    h6 {
+      font-weight: 400;
+      margin: 0;
+      color: rgba($color: $txt, $alpha: 0.6) !important;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      font-size: 14px;
+      span {
+        color: rgba($color: $txt, $alpha: 0.6) !important;
+      }
+    }
+    h5 {
+      margin: 0 !important;
+      font-size: 18px;
+    }
+    &__profile {
+      color: $Pcolor;
+    }
+  }
+  .sidebar__bottom {
+    height: 60px;
+    width: 100%;
+    padding-left: 30px;
+    cursor: pointer;
+    display: flex;
+    background: white;
+    box-shadow: $shadow;
+    align-items: center;
+
+    left: 0;
+    bottom: 0;
+    svg {
+      margin-right: 15px;
+    }
+    &:hover {
+      color: $Pcolor !important;
+      svg {
+        fill: $Pcolor !important;
+      }
+    }
+  }
+  .sidebar__menu {
+    width: 100%;
+
+    padding-top: 20px;
+    border-top: 1px solid $Pcolor;
+    border-bottom: 1px solid $Pcolor;
+    border-radius: 8px;
+    height: calc(100vh - 140px) !important;
+    overflow: hidden;
+    overflow-y: auto !important;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+    &__element {
+      a {
+        display: flex;
+        width: $sideBarSize !important;
+        color: $Pcolor;
+        align-items: center;
+        position: relative;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-family: "Poppins";
+        padding: 10px 0;
+        padding-left: 15px;
+        font-weight: 500;
+        &.active {
+          &::before {
+            content: "";
+            width: 2px;
+            height: 100%;
+            border-radius: 2px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: $yellow;
+            display: block;
+          }
+          color: $yellow !important;
+          svg {
+            fill: $yellow !important;
+          }
+        }
+        letter-spacing: 1px;
+      }
+      &__icon {
+        font-size: 20px;
+        margin: 0;
+        margin-right: 15px;
+      }
+    }
+  }
+}

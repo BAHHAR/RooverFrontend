@@ -1,0 +1,26 @@
+.table__container {
+  margin-top: 30px;
+  background-color: white;
+  box-shadow: $shadow;
+  padding: 3em;
+  .myTable {
+    margin-top: 20px;
+  }
+  .table__title {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .ant-steps-item-title {
+    font-size: 12px !important;
+  }
+}
+
+.flex_modifier_statut_affaire_table {
+  display: flex;
+  cursor: pointer;
+}
+
+.with_status_affaire_table {
+  width: 120%;
+}
